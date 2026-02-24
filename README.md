@@ -20,7 +20,7 @@
 
 ### Тестирование
 
-
+<img width="1686" height="504" alt="Image" src="https://github.com/user-attachments/assets/ffa3240f-7fac-4157-8671-2f6bdf1c5778" />
 
 ## Задание 2
 
@@ -42,3 +42,4 @@
 4)Выводим кол-во чертных цифр в числе
 
 ### Тестирование
+<img width="1711" height="540" alt="Image" src="https://github.com/user-attachments/assets/5475e2bd-b522-4a68-a7d6-490a28f9ae5c" />
