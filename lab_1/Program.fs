@@ -1,26 +1,29 @@
 ﻿open System
 (*
+open System
 let create count =
-    let rec readList n list2 =
-        if n <= 0 then 
-            list2
+    
+    let rec reverseNumber n list1 =
+        if n = 0 then list1
+        else reverseNumber (n / 10) (list1 * 10 + n % 10)
+        
+    let rec readList n list1 =
+        if n = 0 then
+            List.rev list1
         else
-            printf "Введите элемент: "
+            printf "Введите натуральное число: "
             let a = int (Console.ReadLine())
-            readList (n - 1) (a :: list2)
+            let reversed = reverseNumber a 0
+            readList (n - 1) (reversed :: list1)
 
-    let list = readList count []
-    list
+    readList count []
 
 [<EntryPoint>]
 let main argv =
     printf "Сколько элементов вы хотите ввести? "
     let count = int (Console.ReadLine())
-
     let list = create count
-
-    printfn "Перевернутый список: %A" list
-
+    printfn "Список с перевернутыми числами: %A" list
     0
    *)
     
